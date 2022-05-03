@@ -1,0 +1,52 @@
+
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.mint{
+  display: flex;
+  justify-content: center;
+}
+
+.mint p{
+  margin: auto;
+  
+  padding: 20px 0px;
+}
+
+
+.butonmint{
+  margin: 50px;
+
+}
+.mint-container{
+  border-style: solid;
+  border-color: blue;
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  border-radius: 20px;
+
+
+}
+.mint-container h2{
+  text-align: center;
+  margin: 10px 0px 0px 0px;
+}
+.imgMint{
+  display: flex;
+}
+
+.imgMint img{
+  width: 80%;
+  height: 100px;
+}
+
+@media only screen and (max-width: 765px) {
+
+  .mint{
+    display: block;
+  }
+}
